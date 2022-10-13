@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@400;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+  font-weight: normal;
+  @apply box-border overflow-x-hidden;
+}
+.bigTitle h1 {
+  font-size: calc(20px + 3vw);
+  line-height: calc(25px + 3.5vw);
+}
+.corpsLogo {
+  max-width: 72em;
+  margin: 2em auto;
+}
+.corpsList {
+  @apply flex justify-center flex-wrap gap-10;
+}
+.corpsLogo ul li {
+  @apply flex justify-center items-center;
+}
+.corpsLogo img {
+  @apply min-w-[40px] max-w-[130px];
+}
+.fybList {
+  @apply flex flex-wrap mt-20 justify-center md:items-start;
+  gap: 50px;
+}
+.fybListItem {
+  @apply max-w-md md:mb-0 md:max-w-[400px];
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.fybListItem img {
+  border-radius: 50%;
+}
+.fybListItemDetail h3 {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.fybListItemDetail p {
+  font-weight: #575455;
+  font-size: 1rem;
+}
+.service {
+  @apply mt-36;
+}
+.servImg {
+  @apply mb-5;
+}
+.faceRow {
+  @apply invisible flex items-center max-w-7xl mx-auto mb-20 xl:visible;
+}
+.dotted img {
+  @apply min-w-[300px];
+}
+.testimonial {
+  @apply relative mt-36;
+}
+.testimonialContent {
+  @apply z-50 w-full mx-auto relative;
+}
+.testimonialContent h1 {
+  @apply font-bold text-center max-w-sm mx-auto leading-relaxed;
+  font-size: calc(20px + 1vw);
+}
+.testimonialParagraph {
+  @apply max-w-md mx-auto mt-20 text-center py-10 text-[#575455] px-16 bg-white shadow-xl rounded-xl;
+}
+.quote {
+  @apply absolute -top-16 left-0 w-full h-full flex justify-center;
+}
+.navigation {
+  @apply max-w-md mx-auto mt-8 text-right relative z-[99];
+}
+.menuList {
+  @apply first-letter:order-2 absolute flex flex-col gap-8 lg:gap-14 text-base pl-12 sm:pl-0 sm:flex-row sm:order-none sm:static sm:w-min sm:bg-transparent top-20 left-0 bg-white w-full transition-all overflow-hidden max-h-0 sm:max-h-full;
+}
+.btn {
+  @apply bg-blue-600 px-7 py-3 text-white rounded-lg active:translate-x-[0.20rem] active:translate-y-[0.10rem] active:shadow-none;
+  box-shadow: 3px 3px 1px rgb(0, 0, 200, 0.5);
+  transition: all 0.2s ease-in-out;
+}
+.swiper-slide h3 {
+  @apply font-bold mt-3;
+}
+.dotted {
+  @apply hidden absolute sm:flex justify-center w-full items-center h-full top-0;
+}
+.cta {
+  @apply bg-[#1F7CFF] mt-16 sm:mt-44 rounded-md text-center py-14 px-7 box-border w-[90%] sm:max-w-4xl mx-auto relative z-20;
+}
+.cta h1 {
+  font-size: calc(20px + 0.3vw);
+}
+.cta .buttonCta {
+  font-size: calc(10px + 0.5vw);
+}
+.cta .buttonCta button:nth-child(1) {
+  @apply bg-white px-7 py-3 text-blue-600 rounded-lg font-bold mr-3 mb-3 hover:bg-blue-600 hover:text-white transition-all font-Inter;
+}
+.cta .buttonCta button:nth-child(2) {
+  @apply bg-[#1F7CFF] px-7 py-3 text-white border border-solid border-white rounded-lg font-bold hover:border-blue-600 hover:bg-blue-600 transition-all font-Inter;
+}
+footer {
+  @apply font-light bg-[#191046] px-5 pt-52 pb-7 box-border text-[#C6C6C6] -mt-36;
+}
+footer h3 {
+  @apply text-left sm:text-center lg:text-left text-white font-bold text-base uppercase;
+}
+.infos {
+  @apply block sm:flex justify-around gap-7 flex-wrap p-5 sm:p-0;
+}
+.info {
+  @apply mb-14;
+}
+.info ul li {
+  @apply mb-3;
+}
+.subInfo {
+  @apply flex items-center gap-3 mt-5;
+}
