@@ -22,7 +22,7 @@ const showMenu = () => {
 <template>
   <nav class="font-Poppins flex justify-between items-center">
     <div class="logo order-3 sm:order-none">
-      <img src="../../img/header/logo.png" alt="" />
+      <img src="@/img/header/logo.png" alt="" />
     </div>
     <Hamburger @click="showMenu" class="hamburgerBtn order-1 sm:order-none relative z-50" />
     <ul class="menuList">

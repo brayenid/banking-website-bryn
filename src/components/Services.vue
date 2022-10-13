@@ -5,7 +5,7 @@ import Button from './Button.vue'
   <div class="service">
     <div class="flex flex-col xl:flex-row xl:justify-around xl:items-center">
       <div class="servImg">
-        <img src="../../img/service/Image.png" alt="" />
+        <img src="@/img/service/Image.png" alt="" />
       </div>
       <div class="serDet">
         <h1 class="font-bold">Boost Productivity</h1>
@@ -15,7 +15,7 @@ import Button from './Button.vue'
     </div>
     <div class="flex flex-col items-end xl:flex-row-reverse xl:justify-around xl:items-center mt-36">
       <div class="servImg">
-        <img src="../../img/service/1.png" alt="" />
+        <img src="@/img/service/1.png" alt="" />
       </div>
       <div class="serDet text-right xl:text-left">
         <h1 class="font-bold">Highest Output</h1>

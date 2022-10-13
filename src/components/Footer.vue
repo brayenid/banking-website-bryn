@@ -49,7 +49,7 @@ import Phone from '../icons/Phone.vue'
       </div>
       <div class="info">
         <h3>Our Location</h3>
-        <img class="mt-3" src="../../img/footer/Techyes map-01 3.png" alt="" />
+        <img class="mt-3" src="@/img/footer/map.png" alt="" />
       </div>
     </div>
     <div class="text-center pt-7">
